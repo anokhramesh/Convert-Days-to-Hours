@@ -1,4 +1,4 @@
-# A program for convert User inputed number of  days to Hours.
+# An Example  project for Def,input function and Type casting- convert User inputed number of  days to Hours.
 calculation_to_units = 24
 name_of_unit = "Hours"
 
