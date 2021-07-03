@@ -1,3 +1,4 @@
+''' A program to convert the user inputed number of Days to Hours.'''
 calculation_to_units =24# assign the value to the variable name-calculation_to_units
 name_of_unit = "Hours" #assign the string Hours to the variable name-name_of_unit
 
