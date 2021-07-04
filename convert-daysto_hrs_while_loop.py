@@ -3,11 +3,11 @@ calculation_to_units =24# assign the value to the variable name-calculation_to_u
 name_of_unit = "Hours" #assign the string Hours to the variable name-name_of_unit
 
 
-def days_to_units(num_of_days):#define a function nane-num_of_days to calculate the days to hours
+def days_to_units(num_of_days):#define a function name-days_to_units to calculate the days to hours
     return f"{num_of_days} days are {num_of_days * calculation_to_units} {name_of_unit}"
 def validate_and_execute():# define a function name-validate_and_execute to validate the user input is correct or not
     try:
-        user_input_number =int(user_input)# type casting the user input to iteger.
+        user_input_number =int(user_input)# typecasting the user input to iteger.
         if user_input_number >0:# if user input is a positive integer then only calculate the values.
             calculated_value = days_to_units(user_input_number)
             print(calculated_value)# printing the value of  calculated_value.
